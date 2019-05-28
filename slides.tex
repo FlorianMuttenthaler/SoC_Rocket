@@ -14,6 +14,8 @@
 
 \usepackage{appendixnumberbeamer} 
 
+\usepackage{endnotes} % footnotes at the end of the document
+
 % To avoid a warning from the hyperref package:
 \pdfstringdefDisableCommands{%
   \def\translate{}%
@@ -23,10 +25,10 @@
 \title[SoC Rocket]{SoC Rocket}
 
 
-\subtitle{Background Images and Logos\\
-Version 0.5.2}
+%\subtitle{Background Images and Logos\\
+%Version 0.5.2}
 
-\author{Florian Muttenthaler\\Johannes Ivancsics\\David Freismuth}
+\author{Johannes Ivancsics\\Florian Muttenthaler\\David Freismuth}
 
 
 \institute[TU Wien]{TU Wien, Vienna, Austria}
@@ -46,11 +48,21 @@ Version 0.5.2}
 %
 
 \begin{frame}{Content}
+\begin{itemize}
+\item Johannes Topics
+\item \textbf{Transaction Level Modelling}
+\begin{itemize}
+\item Virtual Platform Model
+\item TLM 2.0
+\item SoC Rocket Models Library
+\end{itemize}
+\item David Topics
+\end{itemize}
 
 \end{frame}
 
-\include{Florian_slides}
 \include{Johannes_slides}
+\include{Florian_slides}
 \include{David_slides}
 
 \begin{frame}{}
@@ -62,13 +74,13 @@ Version 0.5.2}
 % Here si the begin of the ICT slides
 % Useful for syntax help
 %
-\begin{frame}{Start of ICT Template}
-\begin{block}{}
-Here is the start of the ICT Template slides. These slides are very useful to learn the syntax.	
-\end{block}
-\end{frame}
+%\begin{frame}{Start of ICT Template}
+%\begin{block}{}
+%Here is the start of the ICT Template slides. These slides are very useful to learn the syntax.	
+%\end{block}
+%\end{frame}
 
-\include{ICT_slides}
+%\include{ICT_slides}
 
 \end{document}
 
