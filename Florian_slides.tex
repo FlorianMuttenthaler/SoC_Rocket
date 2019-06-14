@@ -34,6 +34,7 @@
 	\begin{itemize}
 		\item OSCI (Open SystemC Initiative) TLM Standard \footnote{\url{https://www.accellera.org/images/downloads/standards/systemc/TLM_2_0_LRM.pdf}}
 		\item Purpose Speed and Interoperability
+		\item \textbf{Coding Styles:} Loosly Timed and Approximately Timed
 	\end{itemize}
 \begin{block}{Three Layers}
 \begin{figure}
@@ -43,24 +44,24 @@
 \end{figure}
 \end{block}
 \end{frame}
-\begin{frame}{Coding Styles}
-\begin{block}{Loosely Timed}
-	\begin{itemize}
-		\item Simulate as fast as possible
-		\item Two main methods
-		\begin{itemize}
-			\item Temporal Decoupling
-			\item Use direct memory interface (DMI)
-		\end{itemize}
-	\end{itemize}
-\end{block}
-\begin{block}{Approximately Timed}
-	\begin{itemize}
-		\item Just accurate enough for performance modelling
-		\item Processes run in lock step with simulation time
-	\end{itemize}
-\end{block}
-\end{frame}
+% \begin{frame}{Coding Styles}
+% \begin{block}{Loosely Timed}
+% 	\begin{itemize}
+% 		\item Simulate as fast as possible
+% 		\item Two main methods
+% 		\begin{itemize}
+% 			\item Temporal Decoupling
+% 			\item Use direct memory interface (DMI)
+% 		\end{itemize}
+% 	\end{itemize}
+% \end{block}
+% \begin{block}{Approximately Timed}
+% 	\begin{itemize}
+% 		\item Just accurate enough for performance modelling
+% 		\item Processes run in lock step with simulation time
+% 	\end{itemize}
+% \end{block}
+% \end{frame}
 \begin{frame}{Interoperability}
 \begin{figure}
 \label{fig:int}
