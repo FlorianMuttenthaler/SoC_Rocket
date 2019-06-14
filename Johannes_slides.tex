@@ -12,20 +12,26 @@
 \end{block}
 \end{frame}
 
-\begin{frame}{Hardware-Software-productivity gap}
-	\begin{figure}
-	\label{fig:prodgap}
-	\centering
-	\includegraphics[width=0.9\textwidth]{pictures/Productivity.PNG}
-	\end{figure}
-	ITRS Roadmap 2007\footnote{\url{https://www.semiconductors.org/wp-content/uploads/2018/08/2007Design.pdf)}}
+\begin{frame}{Hardware-Software-productivity gap\footnote{\url{https://www.semiconductors.org/wp-content/uploads/2018/08/2007Design.pdf)}}}
+    \begin{itemize}
+     \item Chip capabilities increase following Moore's law
+     \item Conventional toolchains based on RTL can not exploit these capabilities
+     \item Most of the potential lost in complexity of RTL models
+    \end{itemize}
+
+% 	\begin{figure}
+% 	\label{fig:prodgap}
+% 	\centering
+% 	\includegraphics[width=0.9\textwidth]{pictures/Productivity.PNG}
+% 	\end{figure}
+% 	ITRS Roadmap 2007\footnote{\url{https://www.semiconductors.org/wp-content/uploads/2018/08/2007Design.pdf)}}
 \end{frame}
 
 
 \begin{frame}{Introduction to SoCRocket}
 \begin{block}{Solution}
   \begin{itemize}
-		\item	Re-Using RTL IP-cores \& enabling more on-chip memory is the standard 
+		\item	Re-Using RTL IP-cores memory is the standard until now
 		\item Raise of abstraction level
 			\begin{itemize}
 				\item VHDL and Verilog in the 1990s
